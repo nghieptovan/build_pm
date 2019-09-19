@@ -2500,7 +2500,7 @@ var HttpService = (function () {
         return new __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Headers */]({
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'Authorization': 'Bearer ' + token
+            'Access-Control-Allow-Headers': 'x-xsrf-token'
         });
     };
     HttpService.prototype.getEls = function (url) {
