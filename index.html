@@ -1,1 +1,90 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Gutenberg Editor Demo</title><script src="https://unpkg.com/react@16.6.3/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@16.6.3/umd/react-dom.development.js"></script><script src="https://unpkg.com/moment@2.22.1/moment.js"></script><script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script><link href="/static/css/2.a1deee7c.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(c){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],a=0,l=[];a<n.length;a++)t=n[a],Object.prototype.hasOwnProperty.call(f,t)&&f[t]&&l.push(f[t][0]),f[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(c[r]=o[r]);for(s&&s(e);l.length;)l.shift()();return i.push.apply(i,u||[]),p()}function p(){for(var e,r=0;r<i.length;r++){for(var t=i[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==f[u]&&(n=!1)}n&&(i.splice(r--,1),e=a(a.s=t[0]))}return e}var t={},f={1:0},i=[];function a(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return c[e].call(r.exports,r,r.exports,a),r.l=!0,r.exports}a.m=c,a.c=t,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(r,e){if(1&e&&(r=a(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)a.d(t,n,function(e){return r[e]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/";var r=this["webpackJsonpreact-ea6cpb"]=this["webpackJsonpreact-ea6cpb"]||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;p()}([])</script><script src="/static/js/2.08921f0f.chunk.js"></script><script src="/static/js/main.56ce6f15.chunk.js"></script></body></html>
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ca rô 3 ô</title>
+
+<style>
+    td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+
+</style>
+<script async src="main.js"></script>
+</head>
+
+<body>
+
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	<div class="endgame">
+		<div class="text"></div>		
+	</div>
+
+ 
+</body>
+</html>
